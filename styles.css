@@ -53,3 +53,39 @@ h1 {
 #botao:active {
     transform: scale(0.98);
 }
+/* ... (mantenha o código anterior do body e h1) ... */
+
+input {
+    width: 280px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0c4a6e;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Efeito quando o usuário clica para digitar */
+input:focus {
+    background-color: #ffffff;
+    border-color: #0ea5e9; /* Borda azul bebê ao focar */
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.2);
+    width: 300px; /* Ele expande levemente */
+}
+
+/* Estilo do texto de sugestão (placeholder) */
+input::placeholder {
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* Ajuste no botão para espaçamento */
+#botao {
+    /* ... (mantenha as regras anteriores) ... */
+    min-width: 200px;
+}
